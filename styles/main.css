@@ -73,25 +73,34 @@ a:visited {
 
 
 .e2-2 {
+    position: relative;
     display: flex;
     align-items: flex-end;
     padding-bottom: 3px;
     width: 180px;
     justify-content: space-evenly;
     margin-left: 50px;
-    transform: translateY(7px);
 }
 
 .tools {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 30px;
+    position: absolute;
+    right: 18px;
+    padding: 8px 12px;
+    bottom: -6px;
 }
+
 .tools:hover {
-    background-color: lightgrey;
-    border-style: solid; 
+    border-color: #dadce0;
+    background-color: #f6f8f9;
+    border-width: 1px;
+    border-style: solid;
+    color: #202124;
+    border-radius: 3px;
+}
+
+.settings {
+    position: absolute;
+    left: 18px;
 }
 
 .pair {
