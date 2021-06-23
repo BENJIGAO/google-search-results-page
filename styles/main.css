@@ -31,12 +31,16 @@ a:visited {
 
 .e1-2 {
     display: flex;
+    width: 500px;
+}
+
+.e1-3 {
+    display: flex;
     align-items: center;
     margin-left: auto;
     width: 250px;
     justify-content: space-evenly;
     transform: scale(0.9);
-
 }
 
 .e2 {
@@ -68,9 +72,6 @@ a:visited {
     padding-bottom: 17px;
     transform: translateY(21px);
 }
-
-
-
 
 .e2-2 {
     position: relative;
@@ -136,4 +137,11 @@ a:visited {
 #search-bar:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+}
+
+#vert-line {
+    border-left: 1px #dfe1e5;
+    width: 5px;
+    height: 35px;
+    border-style: solid;
 }
