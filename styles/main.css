@@ -60,6 +60,18 @@ a:visited {
     justify-content: space-evenly;
 }
 
+.pair:focus {
+    color: #1a73e8;
+    border-bottom: #1a73e8;
+    border-bottom-width: 4px;
+    border-style: solid;
+    padding-bottom: 17px;
+    transform: translateY(21px);
+}
+
+
+
+
 .e2-2 {
     display: flex;
     align-items: flex-end;
@@ -67,18 +79,24 @@ a:visited {
     width: 180px;
     justify-content: space-evenly;
     margin-left: 50px;
+    transform: translateY(7px);
+}
 
-
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+}
+.tools:hover {
+    background-color: lightgrey;
+    border-style: solid; 
 }
 
 .pair {
     display: flex; 
     align-items: center;
-}
-
-.pair:active {
-    border-bottom: blue;
-    border-width: 5px;
 }
 
 .material-icons {
