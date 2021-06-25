@@ -6,9 +6,32 @@
     margin-left: 10.4%;
 }
 
+strong {
+    font-weight: bold !important;
+}
+
 .featured-website-template {
 
 }
+
+.ad-text {
+    font-size: 20px;
+}
+
+.website-url {
+    font-size: 19px
+}
+
+.carat-down-icon {
+    color: gray;
+    margin-left: 3px;
+}
+
+.website-title {
+
+}
+
+.website-description
 
 .related-search-container {
     width: 20%;
@@ -25,5 +48,6 @@
     font-size: 17.35px;
     letter-spacing: 0.5px;
     margin-bottom: 27px;
+    margin-top: 17px;
 }
 
