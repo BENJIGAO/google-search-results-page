@@ -1,9 +1,12 @@
-.website-container {
+.content-body-container {
     width: 35%;
     height: 1000px;
     border-style: solid;
     border-width: 1px;
-    margin-left: 15%;
+    margin-left: 10.4%;
+}
+
+.featured-website-template {
 
 }
 
@@ -17,8 +20,10 @@
     border-width: 1px;
 }
 
-.number-search-results {
+#num-search-results {
     color: #707586;
-    font-size: 16px;
+    font-size: 17.35px;
     letter-spacing: 0.5px;
+    margin-bottom: 27px;
 }
+
