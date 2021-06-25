@@ -27,7 +27,18 @@ strong {
     margin-left: 3px;
 }
 
+.website-title-container {
+    margin-top: 15px;
+}
+
 .website-title {
+    color: #210dab !important;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.website-title:hover {
+    text-decoration: underline;
 
 }
 
